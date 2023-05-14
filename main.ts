@@ -6,7 +6,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 let sprite: game.LedSprite = null
-music.startMelody(music.builtInMelody(Melodies.Prelude), MelodyOptions.Once)
+music.startMelody(music.builtInMelody(Melodies.Nyan), MelodyOptions.Once)
 sprite = game.createSprite(2, 2)
 basic.forever(function () {
     sprite.move(1)
